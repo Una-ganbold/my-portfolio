@@ -1,0 +1,120 @@
+
+.background{
+    background-color: #f3f2f9;
+}
+.background-2{
+background-color: #74ebd57e;
+background-image: linear-gradient(90deg, #f3f2f9 0%, #3a457593 100%);
+}
+
+.display-5, h3, .navbar-brand{
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #343d49fe;
+  }
+
+  .lead{
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 50px;
+    font-style: normal;
+
+  }
+  
+.btn-grad {background-image: linear-gradient(to right, #a9bbd2e3 100%, #f3f2f9  51%, #77a0d373  100%)}
+.btn-grad {
+   width: 200px;
+   margin: 10px;
+   padding: 15px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 30%;
+   display: block;
+ }
+
+ .d-block{
+ border-radius: 40%;
+ }
+.project-link{
+    color: #a9bbd2e3;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+}
+.h4{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(42, 42, 42);
+  justify-content: space-between;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  padding: 50px;
+}
+.container-pics{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+.h3{
+  font-size: 28px;
+  font-weight: bold;
+  padding: 0px;
+  }
+
+.p{
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+.h5{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.item{
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #f3f2f9;
+  justify-content: space-between;
+}
+.item img{
+  width: 100%;
+}
+.container2{
+  padding-top: 15px;
+}
+
+.java-projects{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap:30px;
+  justify-content: space-between;
+}
+.btn{
+  margin-top: auto;
+}
+
+@media (min-width: 100px) and (max-width: 576px) {
+  .container-pics, .java-projects {
+    grid-template-columns: 1fr;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .container-pics, .java-projects{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  .container-pics, .java-projects{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
